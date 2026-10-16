@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Ahmed Yassine Tifour, full-stack developer based in Algeria. Angular, Laravel, and a security-first approach to building web applications."
+    />
+    <meta name="theme-color" content="#f3f1e9" />
+    <title>Ahmed Yassine Tifour — Full-stack developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="wordmark" href="#" aria-label="Ahmed Yassine Tifour home"
+        >AYT<span>®</span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav id="site-navigation" aria-label="Main navigation">
+        <a href="#main">Home</a><a href="#about">About</a
+        ><a href="#skills">Skills</a><a href="#work">Projects <sup>02</sup></a
+        ><a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="eyebrow">
+          <span class="dot"></span> FULL-STACK DEVELOPER · ALGERIA
+        </div>
+        <h1>
+          I turn ideas into<br />things people<br /><em>actually use.</em>
+        </h1>
+        <div class="hero-bottom">
+          <p>
+            I'm Yassine. I build web applications with Angular and Laravel —
+            from the interface you see to the logic that makes it work.
+          </p>
+          <a class="circle-link" href="#work" aria-label="Explore selected work"
+            >↓</a
+          >
+          <div class="hero-note">
+            THOUGHTFUL INTERFACES.<br />SOLID FOUNDATIONS.<br />A SECURITY
+            MINDSET.
+          </div>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <span>+</span><span>+</span><span>+</span><span>+</span>
+        </div>
+      </section>
+      <div class="stack-strip">
+        <span>MY EVERYDAY TOOLKIT</span>
+        <div>
+          Angular <i>/</i> Laravel <i>/</i> TypeScript <i>/</i> Tailwind CSS
+          <i>/</i> Application security
+        </div>
+      </div>
+      <section id="work" class="work section">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">03 / SELECTED WORK</span>
+            <h2>Built around<br />real problems.</h2>
+          </div>
+          <p>
+            Two projects. Different businesses.<br />The same attention to the
+            details.
+          </p>
+        </div>
+        <div
+          class="project-tabs"
+          role="tablist"
+          aria-label="Selected projects"
+        ></div>
+        <article class="project project-panel" data-project-panel="barber">
+          <div class="project-visual barber-visual">
+            <div class="screenshot-grid">
+              <figure class="screenshot screenshot-wide">
+                <img
+                  src="images/kob-home.png"
+                  alt="King of Barber public homepage with booking call to action"
+                />
+              </figure>
+              <figure class="screenshot">
+                <img
+                  src="images/kob-booking.png"
+                  alt="King of Barber booking flow for choosing a barber and service"
+                />
+              </figure>
+              <figure class="screenshot">
+                <img
+                  src="images/kob-owner-dashboard.png"
+                  alt="King of Barber owner dashboard showing services and barbers"
+                />
+              </figure>
+              <figure class="screenshot">
+                <img
+                  src="images/kob-statistics.png"
+                  alt="King of Barber statistics dashboard with revenue and booking data"
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-number">PROJECT / 01</span>
+              <h3>King of Barber</h3>
+              <p>
+                A booking and management system that connects clients, barbers,
+                and owners. Reservations, a live queue, services, statistics,
+                and dedicated dashboards in one place.
+              </p>
+              <div class="tags">
+                <span>Angular</span><span>Laravel</span
+                ><span>Role-based dashboards</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <button data-project="barber" class="text-link">
+                Inside the project ↗</button
+              ><a
+                href="https://king-of-barber.aa-tifour.workers.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="sub-link"
+                >Visit demo ↗</a
+              >
+            </div>
+          </div>
+        </article>
+        <article
+          class="project project-panel"
+          data-project-panel="store"
+          hidden
+        >
+          <div class="project-visual store-visual">
+            <div class="store-window">
+              <div class="store-nav">
+                <b>fanuna<span>.</span></b
+                ><span>Collection &nbsp; About &nbsp; Bag (0)</span>
+              </div>
+              <div class="store-content">
+                <div class="store-copy">
+                  <small>A LITTLE SOMETHING FOR YOU</small>
+                  <h3>Good things.<br />Simply found.</h3>
+                  <span class="mock-shop-button">Explore the collection ↗</span>
+                </div>
+                <div class="product-art" aria-hidden="true">
+                  <div class="bottle-cap"></div>
+                  <div class="bottle">
+                    <span
+                      >fanuna<br /><b>COLLECTION</b><i>01 / FEATURED</i></span
+                    >
+                  </div>
+                  <div class="art-ring"></div>
+                </div>
+              </div>
+              <div class="store-bottom">
+                <span>Thoughtfully selected</span
+                ><span>Made for the everyday</span
+                ><span>A simpler way to shop</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-number">PROJECT / 02</span>
+              <h3>Fanuna — online store & admin</h3>
+              <p>
+                A customer-facing Angular shop paired with a Laravel
+                administration panel for products, orders, customers,
+                notifications, and sales activity. Product images can be stored
+                locally by the application. It also supports Arabic content and
+                customer information, including birthdays.
+              </p>
+              <div class="tags">
+                <span>Angular</span><span>Laravel</span
+                ><span>Role-based dashboards</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <button data-project="store" class="text-link">
+                Inside the project ↗</button
+              ><span class="sub-link">Private project</span>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="skills" class="skills section">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">02 / SKILLS</span>
+            <h2>Tools I use<br /><em>to build properly.</em></h2>
+          </div>
+          <p>
+            Frontend craft, backend foundations,<br />and a security mindset.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-index">01</span>
+            <h3>Frontend</h3>
+            <p>
+              Angular · TypeScript · JavaScript · HTML · CSS · Tailwind CSS ·
+              Angular Material · RxJS · Bootstrap
+            </p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">02</span>
+            <h3>Backend</h3>
+            <p>
+              PHP · Laravel · REST APIs · Authentication · Local file storage ·
+              Database-backed applications
+            </p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">03</span>
+            <h3>Security</h3>
+            <p>
+              Web and mobile application security · Source code review ·
+              HTTP/API testing · Burp Suite · Linux/Kali Linux
+            </p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">04</span>
+            <h3>Workflow</h3>
+            <p>
+              Python · C · Bash · Git · GitHub · Responsive interfaces · Arabic
+              RTL support
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="about" class="about section">
+        <div class="about-title">
+          <span class="eyebrow">01 / THE PERSON BEHIND THE CODE</span>
+          <h2>Developer by craft.<br /><em>Curious by default.</em></h2>
+          <div class="monogram" aria-hidden="true">ayt<span>↗</span></div>
+        </div>
+        <div class="about-copy">
+          <p class="large-copy">
+            I care about how an application feels — and what happens beneath the
+            surface.
+          </p>
+          <p>
+            I'm a computer science student at the National Higher School of
+            Advanced Technologies in Algiers, specializing in Systems Security.
+            I build full-stack web applications and explore application security
+            through hands-on research.
+          </p>
+          <p>
+            Alongside development, I've served as co-leader of the cybersecurity
+            department at my university's Google Developer Students Club.
+          </p>
+          <div class="about-facts">
+            <div><small>BASED IN</small><span>Algeria</span></div>
+            <div>
+              <small>WORKING ACROSS</small
+              ><span>English · French · Arabic</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience section">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">04 / EXPERIENCE & EDUCATION</span>
+            <h2>Still learning.<br /><em>Already building.</em></h2>
+          </div>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <span class="experience-date">NOV 2025 — APR 2026</span>
+            <div>
+              <h3>Front-end developer · Airselli</h3>
+              <p>
+                Built responsive Angular and TypeScript features, reusable
+                components, reactive forms, REST API integrations, validation
+                states, and multilingual interfaces including Arabic RTL
+                support.
+              </p>
+            </div>
+          </article>
+          <article class="experience-item">
+            <span class="experience-date">CURRENT</span>
+            <div>
+              <h3>Computer science · Systems Security</h3>
+              <p>
+                Fourth-year engineering student at the National Higher School of
+                Advanced Technologies (ENSTA), studying systems security,
+                networking, operating systems, software engineering, algorithms,
+                and applied cryptography.
+              </p>
+            </div>
+          </article>
+          <article class="experience-item">
+            <span class="experience-date">GDSC · ENSTA</span>
+            <div>
+              <h3>Co-lead · Cybersecurity department</h3>
+              <p>
+                Co-led technical learning, knowledge sharing, and
+                cybersecurity-focused activities within the university
+                community.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <span class="eyebrow">05 / NEXT CHAPTER</span>
+        <h2>
+          Have something<br />worth <em>building?</em
+          ><span class="contact-arrow">↗</span>
+        </h2>
+        <div class="contact-bottom">
+          <p>
+            I'm interested in development opportunities<br />and practical web
+            projects.
+          </p>
+          <div class="contact-links">
+            <a
+              id="contact-email"
+              class="contact-button"
+              href="mailto:aa.tifour@ensta.edu.dz"
+              >Email me <span>↗</span></a
+            ><a
+              class="contact-button"
+              href="https://github.com/ahmedyassinetifour"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span>↗</span></a
+            ><a
+              class="contact-button"
+              href="https://www.linkedin.com/in/ahmed-yassine-tifour-8b8a9b223"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="wordmark" href="#">AYT<span>®</span></a>
+      <p>© <span id="year"></span> Ahmed Yassine Tifour</p>
+      <a href="#">Back to top ↑</a>
+    </footer>
+    <div
+      id="image-lightbox"
+      class="image-lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Expanded project screenshot"
+      hidden
+    >
+      <button class="lightbox-close" type="button" aria-label="Close image">
+        ×
+      </button>
+      <button
+        class="lightbox-arrow lightbox-previous"
+        type="button"
+        aria-label="Previous image"
+      >
+        ←
+      </button>
+      <img id="lightbox-image" alt="" />
+      <button
+        class="lightbox-arrow lightbox-next"
+        type="button"
+        aria-label="Next image"
+      >
+        →
+      </button>
+      <span class="lightbox-counter" aria-live="polite"></span>
+    </div>
+    <dialog id="project-dialog">
+      <button class="dialog-close" aria-label="Close project details">×</button
+      ><span class="eyebrow" id="dialog-label"></span>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+      <div id="dialog-details"></div>
+      <p class="concept-note">
+        These screens are from the project and show selected user workflows.
+      </p>
+    </dialog>
+  </body>
+</html>
